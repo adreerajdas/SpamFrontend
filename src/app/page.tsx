@@ -34,6 +34,12 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-950 text-white relative">
+      {/* Organization and Institute Information - Center Top */}
+      <div className="text-center text-gray-300 mt-8 w-full">
+        <p className="text-lg font-bold">Organisation: CMC Computer Education</p>
+        <p className="text-lg font-bold">Institute: Technique Polytechnic Institute, Hooghly</p>
+      </div>
+
       {/* Hamburger Menu */}
       <div className="absolute top-4 right-4">
         <button
@@ -80,7 +86,7 @@ export default function Home() {
       )}
 
       {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center flex-grow text-center max-w-2xl px-6">
+      <div className="flex flex-col items-center justify-center flex-grow text-center max-w-2xl px-6 -mt-12">
         <h1 className="text-5xl font-extrabold mb-4">
           🛡️ Email Spam Detector
         </h1>
